@@ -1,10 +1,12 @@
 ---
 ---
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
 @import "minima";
 
-// iOS シミュレータ等、日本語フォントフォールバックが効かない環境で
-// 日本語が豆腐化するのを防ぐため、CJK フォントを明示的にスタックへ追加する。
+// 日本語の豆腐化対策。
+// iOS シミュレータ等、システム日本語フォントへのフォールバックが効かない環境でも
+// 表示できるよう、Google Fonts の Noto Sans JP を Web フォントとして読み込む。
 body,
 .site-title,
 .site-nav .page-link,
@@ -20,6 +22,6 @@ textarea {
     "Hiragino Kaku Gothic ProN",
     "Yu Gothic",
     "Meiryo",
-    "Noto Sans CJK JP",
+    "Noto Sans JP",
     sans-serif;
 }

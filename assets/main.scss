@@ -1,0 +1,25 @@
+---
+---
+
+@import "minima";
+
+// iOS シミュレータ等、日本語フォントフォールバックが効かない環境で
+// 日本語が豆腐化するのを防ぐため、CJK フォントを明示的にスタックへ追加する。
+body,
+.site-title,
+.site-nav .page-link,
+button,
+input,
+select,
+textarea {
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Helvetica Neue",
+    "Hiragino Sans",
+    "Hiragino Kaku Gothic ProN",
+    "Yu Gothic",
+    "Meiryo",
+    "Noto Sans CJK JP",
+    sans-serif;
+}

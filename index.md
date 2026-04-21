@@ -89,7 +89,9 @@ Apple または Google アカウントを連携していた場合、アカウン
 
 ### 8. お問い合わせ
 
-プライバシーに関するご質問は、App Store / Google Play のサポートページよりお問い合わせください。
+プライバシーに関するご質問は、以下のメールアドレスまでお問い合わせください。
+
+**ideabrew.dev@gmail.com**
 
 ---
 
@@ -176,4 +178,6 @@ We will notify you of any changes to this policy via app updates.
 
 ### 8. Contact
 
-For privacy-related questions, please contact us through the support page on the App Store or Google Play.
+For privacy-related questions, please contact us at the following email address:
+
+**ideabrew.dev@gmail.com**

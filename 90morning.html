@@ -26,7 +26,7 @@
 <body>
 
 <h1>90 Morning - プライバシーポリシー / Privacy Policy</h1>
-<p class="updated">最終更新日 / Last updated: 2026-05-23</p>
+<p class="updated">最終更新日 / Last updated: 2026-05-24</p>
 
 <hr>
 
@@ -42,11 +42,14 @@
   <li>チャレンジ設定（開始日、朝活項目テンプレート）</li>
   <li>通知（リマインダー）設定（時刻、曜日、ON/OFF）</li>
   <li>ユーザー設定（言語ロケール、画面表示設定）</li>
-  <li>認証情報（Apple または Google アカウントでサインインした際に各プロバイダから提供される表示名、メールアドレス、ユーザー識別子）</li>
+  <li>ユーザー識別子（Firebase UID。 ゲスト利用時は匿名で発行されます）</li>
+  <li>認証情報（Apple または Google アカウントでサインインした場合のみ、 各プロバイダから提供される表示名、 メールアドレス、 プロバイダ識別子）</li>
 </ul>
 <p>これらのデータは、Google LLC が提供する Firebase Authentication および Cloud Firestore に、ユーザー識別子（Firebase UID）に紐付けて保存されます。リージョンは米国です。</p>
 
-<p><strong>認証について:</strong> 本アプリは Apple または Google アカウントでのサインインを必須としています。複数の端末で同じ記録を同期するため、および記録の喪失を防ぐためにクラウドへ保存します。匿名利用はできません。</p>
+<p><strong>認証について:</strong> 本アプリはサインインなしで利用できます。 初回起動時に匿名の Firebase UID が発行され、 その UID に紐付けて記録がクラウドに保存されます。 後で Apple または Google アカウントでサインインすると、 同じ UID のまま アカウントが連携され、 これまでの記録は引き継がれます。 サインインすると複数の端末で同じ記録を同期できますが、 サインインしなくても本アプリの全機能を利用可能です。</p>
+
+<p><strong>ゲスト利用時のご注意:</strong> サインインしないまま アプリを削除したり 端末を変更すると、 匿名 UID は復元できないため記録にアクセスできなくなります。 別端末への引き継ぎや記録の喪失防止には サインインを推奨します。</p>
 
 <p><strong>端末のローカルストレージ（MMKV）にのみ保存する情報:</strong></p>
 <ul>
@@ -148,11 +151,14 @@
   <li>Challenge settings (start date, morning-activity templates)</li>
   <li>Reminder notification settings (time, weekdays, ON/OFF)</li>
   <li>User preferences (locale, display settings)</li>
-  <li>Authentication information (display name, email address, and user identifier provided by the authentication provider when you sign in with Apple or Google)</li>
+  <li>User identifier (Firebase UID, issued anonymously for guest use)</li>
+  <li>Authentication information (display name, email address, and provider identifier provided by Apple or Google, only when you sign in)</li>
 </ul>
 <p>This data is stored in Firebase Authentication and Cloud Firestore (provided by Google LLC), associated with your Firebase user identifier (UID). The region is United States.</p>
 
-<p><strong>Authentication:</strong> The App requires sign-in via Apple or Google accounts. Records are stored in the cloud to synchronize across multiple devices and to prevent data loss. Anonymous use is not available.</p>
+<p><strong>Authentication:</strong> The App can be used without signing in. On first launch, an anonymous Firebase UID is issued and your records are stored in the cloud under that UID. If you later sign in with Apple or Google, the account is linked to the same UID and your existing records are preserved. Signing in enables synchronization across multiple devices, but all features of the App are available without signing in.</p>
+
+<p><strong>Note for guest use:</strong> If you uninstall the App or switch devices without signing in, the anonymous UID cannot be recovered and your records will become inaccessible. To enable cross-device sync and prevent data loss, signing in is recommended.</p>
 
 <p><strong>Information stored only on your device (MMKV):</strong></p>
 <ul>

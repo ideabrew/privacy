@@ -43,7 +43,7 @@
   <li>通知（リマインダー）設定（時刻、曜日、ON/OFF）</li>
   <li>ユーザー設定（言語ロケール、画面表示設定）</li>
   <li>ユーザー識別子（Firebase UID。 ゲスト利用時は匿名で発行されます）</li>
-  <li>認証情報（Apple または Google アカウントでサインインした場合のみ、 各プロバイダから提供される表示名、 メールアドレス、 プロバイダ識別子）</li>
+  <li>認証情報（Apple または Google アカウントでサインインした場合のみ、 各プロバイダから提供されるメールアドレスとプロバイダ識別子。 氏名やプロフィール画像は要求しません）</li>
 </ul>
 <p>これらのデータは、Google LLC が提供する Firebase Authentication および Cloud Firestore に、ユーザー識別子（Firebase UID）に紐付けて保存されます。リージョンは米国です。</p>
 
@@ -152,7 +152,7 @@
   <li>Reminder notification settings (time, weekdays, ON/OFF)</li>
   <li>User preferences (locale, display settings)</li>
   <li>User identifier (Firebase UID, issued anonymously for guest use)</li>
-  <li>Authentication information (display name, email address, and provider identifier provided by Apple or Google, only when you sign in)</li>
+  <li>Authentication information (email address and provider identifier provided by Apple or Google, only when you sign in. We do not request your name or profile picture.)</li>
 </ul>
 <p>This data is stored in Firebase Authentication and Cloud Firestore (provided by Google LLC), associated with your Firebase user identifier (UID). The region is United States.</p>
 
